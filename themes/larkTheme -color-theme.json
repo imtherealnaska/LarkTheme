@@ -4,7 +4,7 @@
 	"colors": {
 		"editor.background": "#f5f5f5",
 		"editor.foreground": "#333333"
-	},
+	}, 
 	"tokenColors": [
 		{
 			"name": "Comments",
@@ -45,7 +45,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#d88518"
 			}
 		},
 		
@@ -53,20 +53,22 @@
 			"name": "Keywords",
 			"scope": [
 				"keyword",
-				"storage"
+				"storage",
+				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#f80a0a"
+				"foreground": "#f80ac5f3"
 			}
 		},
 		{
 			"name": "Types",
 			"scope": [
 				"storage.type",
-				"support.type"
+				"support.type",
 			],
 			"settings": {
-				"foreground": "#9c06f3"
+				"fontStyle": "bold",
+				"foreground": "#2600ff"
 			}
 		},
 		{
@@ -87,18 +89,18 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#221b0d"
+				"foreground": "#c488e7"
 			}
 		},
 		{
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
-				"support.function"
+				"support.function",
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#AA3731"
+				"fontStyle": "bold ",
+				"foreground": "#DA70D6"
 			}
 		},
 		{
@@ -110,14 +112,14 @@
 			],
 			"settings": {
 				"fontStyle": "bold underline"	,
-				"foreground": "#e561f1"
+				"foreground": "#D35400"
 			}
 		},
 		{
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#003366"
 			}
 		},
 		{
@@ -132,24 +134,25 @@
 			"scope": [
 				"constant.numeric",
 				"constant.character",
+				"constant",
 				"constant"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#0c0c8a"
 			}
 		},
 		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#3413f1b7"
 			}
 		},
 		{
@@ -170,7 +173,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#0a0000"
 			}
 		},
 		{
