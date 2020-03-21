@@ -1,0 +1,21 @@
+{
+    "name": "NaskasTheme",
+    "displayName": "naskasTheme",
+    "description": "An extension created by me because i find myself juggling between dark and light themes all the time . ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "larkTheme ",
+                "uiTheme": "vs",
+                "path": "./themes/larkTheme -color-theme.json"
+            }
+        ]
+    }
+}
